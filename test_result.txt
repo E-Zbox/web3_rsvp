@@ -1,0 +1,125 @@
+
+> web3_rsvp@1.0.0 test C:\Users\ONONOGBU\Desktop\development\web3\web3_rsvp
+> node scripts/run.js
+
+Contract deployed to: 0x5FbDB2315678afecb367f032d93F642f64180aa3
+NEW EVENT CREATED:  [
+  {
+    transactionIndex: 0,
+    blockNumber: 2,
+    transactionHash: '0x053eefdde2ab029c8a2c5b434347d4f1559383b3fccb40f659f9d3c051e61398',
+    address: '0x5FbDB2315678afecb367f032d93F642f64180aa3',
+    topics: [
+      '0x2553138c3f9c9008f266dbdbe9fc64f5b71e098d06ef714a190a65a8b9fc6bf3'
+    ],
+    data: '0x8a054be2ea682cd0bdd68f85c9e0aa6d8ac442d7b2716f0a1baab0954490af68000000000000000000000000f39fd6e51aad88f6f4ce6ab8827279cfffb92266000000000000000000000000000000000000000000000000000000006674bb7800000000000000000000000000000000000000000000000000000000000000030000000000000000000000000000000000000000000000000de0b6b3a764000000000000000000000000000000000000000000000000000000000000000000c0000000000000000000000000000000000000000000000000000000000000003b62616679626569626877667a78366f6f3572796d73786d6b6478706d6b66777976626a727277636c3763656b6d627a6c75706d703579706b7966690000000000',
+    logIndex: 0,
+    blockHash: '0xc26dc63831e3d71d3afb4f82e13b738b20fdbf1ab7d66684a87a29645d9addf6',
+    args: [
+      '0x8a054be2ea682cd0bdd68f85c9e0aa6d8ac442d7b2716f0a1baab0954490af68',
+      '0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266',
+      BigNumber { value: "1718926200" },
+      BigNumber { value: "3" },
+      BigNumber { value: "1000000000000000000" },
+      'bafybeibhwfzx6oo5rymsxmkdxpmkfwyvbjrrwcl7cekmbzlupmp5ypkyfi',
+      eventId: '0x8a054be2ea682cd0bdd68f85c9e0aa6d8ac442d7b2716f0a1baab0954490af68',
+      creatorAddress: '0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266',
+      eventTimestamp: BigNumber { value: "1718926200" },
+      maxCapacity: BigNumber { value: "3" },
+      deposit: BigNumber { value: "1000000000000000000" },
+      eventDataCID: 'bafybeibhwfzx6oo5rymsxmkdxpmkfwyvbjrrwcl7cekmbzlupmp5ypkyfi'
+    ],
+    decode: [Function (anonymous)],
+    event: 'NewEventCreated',
+    eventSignature: 'NewEventCreated(bytes32,address,uint256,uint256,uint256,string)',
+    removeListener: [Function (anonymous)],
+    getBlock: [Function (anonymous)],
+    getTransaction: [Function (anonymous)],
+    getTransactionReceipt: [Function (anonymous)]
+  }
+]
+NEW RSVP:  [
+  {
+    transactionIndex: 0,
+    blockNumber: 3,
+    transactionHash: '0xd6c4861c0e6c2980a21f34bd6878a1b2b9e7fbc8bbc62dabc58fdfe96ab9a729',
+    address: '0x5FbDB2315678afecb367f032d93F642f64180aa3',
+    topics: [
+      '0xf722b546d91c153d63ba57164a97b4d547abf6fdeb27d73194c8fd3604390048'
+    ],
+    data: '0x8a054be2ea682cd0bdd68f85c9e0aa6d8ac442d7b2716f0a1baab0954490af68000000000000000000000000f39fd6e51aad88f6f4ce6ab8827279cfffb92266',
+    logIndex: 0,
+    blockHash: '0xda650138dc7b254157898ab4285088fc3e702c46ce0f56cae7f8e86d8cbacc74',
+    args: [
+      '0x8a054be2ea682cd0bdd68f85c9e0aa6d8ac442d7b2716f0a1baab0954490af68',
+      '0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266',
+      eventId: '0x8a054be2ea682cd0bdd68f85c9e0aa6d8ac442d7b2716f0a1baab0954490af68',
+      attendeeAddress: '0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266'
+    ],
+    decode: [Function (anonymous)],
+    event: 'NewEventAttendeeRSVPed',
+    eventSignature: 'NewEventAttendeeRSVPed(bytes32,address)',
+    removeListener: [Function (anonymous)],
+    getBlock: [Function (anonymous)],
+    getTransaction: [Function (anonymous)],
+    getTransactionReceipt: [Function (anonymous)]
+  }
+]
+NEW RSVP:  [
+  {
+    transactionIndex: 0,
+    blockNumber: 4,
+    transactionHash: '0x2bafd660f1ef1f087ab4606feaa785a05fdbd3db5a55a599d39f8ac09ce55cbc',
+    address: '0x5FbDB2315678afecb367f032d93F642f64180aa3',
+    topics: [
+      '0xf722b546d91c153d63ba57164a97b4d547abf6fdeb27d73194c8fd3604390048'
+    ],
+    data: '0x8a054be2ea682cd0bdd68f85c9e0aa6d8ac442d7b2716f0a1baab0954490af6800000000000000000000000070997970c51812dc3a010c7d01b50e0d17dc79c8',
+    logIndex: 0,
+    blockHash: '0x2bbafba25cbc1d0e69a8b04985f8848edeab7697f5274f965ff4c7d832fc60cf',
+    args: [
+      '0x8a054be2ea682cd0bdd68f85c9e0aa6d8ac442d7b2716f0a1baab0954490af68',
+      '0x70997970C51812dc3A010C7d01b50e0d17dc79C8',
+      eventId: '0x8a054be2ea682cd0bdd68f85c9e0aa6d8ac442d7b2716f0a1baab0954490af68',
+      attendeeAddress: '0x70997970C51812dc3A010C7d01b50e0d17dc79C8'
+    ],
+    decode: [Function (anonymous)],
+    event: 'NewEventAttendeeRSVPed',
+    eventSignature: 'NewEventAttendeeRSVPed(bytes32,address)',
+    removeListener: [Function (anonymous)],
+    getBlock: [Function (anonymous)],
+    getTransaction: [Function (anonymous)],
+    getTransactionReceipt: [Function (anonymous)]
+  }
+]
+NEW RSVP:  undefined
+CONFIRMED:  0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+CONFIRMED:  0x70997970C51812dc3A010C7d01b50e0d17dc79C8
+CONFIRMED:  0x3C44CdDdB6a900fa2b585dd299e03d12FA4293BC
+WITHDRAWN:  [
+  {
+    transactionIndex: 0,
+    blockNumber: 7,
+    transactionHash: '0x03df03e5cd95acf18c4b77bf442995b74020ea9250bec4217c422c78a650467c',
+    address: '0x5FbDB2315678afecb367f032d93F642f64180aa3',
+    topics: [
+      '0x393073ea1365f611c3d2f240c992960d2b99dc81715555d3fc40fc55ba80af9c'
+    ],
+    data: '0x8a054be2ea682cd0bdd68f85c9e0aa6d8ac442d7b2716f0a1baab0954490af68',
+    logIndex: 0,
+    blockHash: '0x57a09f16149436934594c25caa17ad7df7f95c05f30ba420162da051ae5601bf',
+    args: [
+      '0x8a054be2ea682cd0bdd68f85c9e0aa6d8ac442d7b2716f0a1baab0954490af68',
+      eventId: '0x8a054be2ea682cd0bdd68f85c9e0aa6d8ac442d7b2716f0a1baab0954490af68'
+    ],
+    decode: [Function (anonymous)],
+    event: 'DepositsPaidOut',
+    eventSignature: 'DepositsPaidOut(bytes32)',
+    removeListener: [Function (anonymous)],
+    getBlock: [Function (anonymous)],
+    getTransaction: [Function (anonymous)],
+    getTransactionReceipt: [Function (anonymous)]
+  }
+]
+
+Tue, Sep 13, 2022  5:22:20 PM
